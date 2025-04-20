@@ -1,0 +1,267 @@
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+nav{
+    position:fixed;
+    display:flex;
+    top:0%;
+    left:0%;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color: black;
+}
+nav ul{
+    display:flex;
+    justify-content:space-around;
+}
+nav ul li{
+    list-style:none;
+    padding: 150px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(114, 175, 212);
+    font-size: 1.02rem;
+}
+header div{
+    position: relative;
+}
+
+header div span{
+    position:absolute;
+    bottom: 10px;
+    left:10px;
+    padding: 11px;
+    background-color: black;
+    color:white;
+    
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -70%);
+    }
+.text-overlay span {
+    font-size: 120px; 
+    color:white;
+    font-style: oblique;
+}
+
+.text-write{
+    position: absolute;
+    top: 550px;
+    right:5px;
+    transform: translateX(-13%);
+}
+.text-write span{
+    color:white;
+    padding: 10px;
+    font-size: larger;
+}
+.text-container{
+    position: absolute;
+    top:90%;
+    left: 38%;
+    padding:80px;
+    
+}
+.text-container span{
+    color:white;
+    background-color: black;
+    padding: 10px;
+    font-size: 25px;
+    font-style:normal;
+}
+
+.text-container p{
+    color:black;
+    font-size: larger;
+    padding:70px;
+    line-height: 1.5;
+    transform: translateX(-27%);
+    margin-top: 10px;
+    
+}
+.text-container img{
+    transform: translateX(-23%);
+}
+.menu-container{
+    position:absolute;
+    top: 290%;
+    left:38%;
+    padding:80px;
+    
+
+}
+.menu-container span{
+    color:white;
+    background-color: black;
+    padding:10px;
+    font-size:25px;
+    font-style:normal;
+    top: 12px;
+    transform:translateY(440%);
+}
+.butter  {
+    
+    margin-left: -90px;
+    margin-right: 317px;
+    padding: 15px 15px;
+    font-size: 20px;
+    color: white;
+    transform:translateY(40%);
+    margin-bottom: 40px;
+}
+.butter-section {
+    
+    margin-top: 40px;
+}
+
+
+
+.butter-section ul {
+    
+    margin-top: 10%;
+    margin-left: -90px;
+    margin-right: 317px;
+}
+
+.butter-section ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+    transform: translateX(-8%);
+}
+
+
+
+
+.menu2 {
+    margin-top: -50%;
+    margin-left: -90px;
+    margin-right: 87px;
+    padding: 15px 15px;
+    font-size: 20px;
+    
+   
+    color: white;
+    cursor: pointer;
+}
+.menu2-section {
+    
+    margin-top: 40px;
+}
+
+
+
+.menu2-section ul {
+    
+    margin-top: -550px;
+   
+    
+}
+
+.menu2-section ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+    transform: translateY(700%);
+    margin-left: 195px;
+    margin-right: 117px;
+    
+    
+}
+
+
+.menu-container img{
+    
+    transform: translate(-30%, 105%);
+   
+}
+.image-container{
+    transform: translateY(20%);
+}
+.mainimage-container{
+    transform: translate( -70%, -348%);
+}
+
+.where-container{
+    position:absolute;
+    top: 530%;
+    left:38%;
+    padding:80px;
+    
+
+}
+.where-container span{
+    color:white;
+    background-color: black;
+    padding:10px;
+    font-size:25px;
+    font-style:normal;   
+}
+.where-container p{
+    transform: translate(-25%, 320%);
+    font-size: 20px;
+    font-style:normal;
+}
+.where-container img{
+    transform: translate(-29%, 45%);
+}
+.details-container{
+    transform:translate(-25%, 120%);
+    
+}
+#Uname{
+    width: 700px;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 8px;
+    transform:translateY(20%);
+}
+#Number{
+    width: 700px;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding:10px;
+    transform:translateY(40%);
+}
+#Message{
+        width: 700px;
+        height: 50px;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding:10px;
+        transform:translateY(80%);
+    }
+#dateTime{
+        width: 700px;
+        height: 50px;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding:10px;
+        transform:translateY(60%);
+}
+.button{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    transform:translateY(-230%);
+    margin-left: 190px;
+}
+.Madeby-container {
+    color:black;
+    transform: translate(50%,24300%);
+    
+}

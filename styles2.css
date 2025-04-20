@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: rgb(240, 231, 220);
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+script {
+    margin-top: 30px; /* Add top margin for spacing */
+}
+
+script p {
+    margin-bottom: 10px; /* Add bottom margin to separate each <p> element */
+    font-size: 50px; /* Increase font size for better readability */
+    line-height: 1.5;
+}
+script p strong {
+    font-size: 20px; /* Increase font size of label text */
+    margin-right: 10px; /* Add right margin to separate label from value */
+}

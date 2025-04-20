@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted Form Data</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <h2>Congratulations!!, your seat has been reserved.</h2>
+
+    <script>
+        // Extract query parameters from URL
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+
+        // Display submitted data on the page
+        const responseContainer = document.createElement('div');
+        responseContainer.innerHTML = `
+            <p><strong>Name:</strong> ${urlParams.get('Uname')}</p>
+            <p><strong>No. of People:</strong> ${urlParams.get('Number')}</p>
+            <p><strong>Date and Time:</strong> ${urlParams.get('dateTime')}</p>
+            <p><strong>Message / Special Requirements:</strong> ${urlParams.get('Message')}</p>
+        `;
+
+        document.body.appendChild(responseContainer);
+    </script>
+</body>
+</html>
